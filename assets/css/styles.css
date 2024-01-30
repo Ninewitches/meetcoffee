@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+/* Nav */
+
+nav {
+    background-color: #3644b3;
+    color: white;
+    text-align: mid;
+    padding: 20px 120px;
+    font-size: 15px;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+
+}
+
+nav .icono {
+    width: 20px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+/* Header */
+
+header {
+    text-align: right;
+    background-image: url(/assets/img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+    color: white;
+    text-shadow: 0px 3px 6px black;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 10px;
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: 30px;
+}
+
+/* Ubicacion */
+
+#ubicacion {
+    margin: 50px;
+    font-family: "Open Sans";
+}
+
+#ubicacion h2 {
+    margin: 30px;
+    font-size: 35px;
+}
+
+#ubicacion p {
+    font-size: 15px;
+}
+
+#ubicacion img {
+    width: 500px;
+    text-align: center;
+}
+
+/* Charla Natalia Valdez  */
+
+#proxima-charla {
+    background-color: brown;
+    padding: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#proxima-charla .centrado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#proxima-charla img {
+    width: 250px;
+    margin-right: 20px;
+}
+
+#proxima-charla .texto {
+    text-align: left;
+}
+
+#proxima-charla p {
+    font-size: 10px;
+}
+
+/* Eventos */
+
+#eventos {
+    padding: 10px
+}
+
+#eventos h2 {
+    font-size: 33px;
+}
+
+#eventos article {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* Footer  */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    margin: 20px;
+    font-size: 10px;
+}
